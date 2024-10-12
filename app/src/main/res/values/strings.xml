@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Stock Insight</string>
+    <string name="stock_symbol">Enter the Stock Symbol</string>
+    <string name="stock_price">Stock Price :</string>
+    <string name="Exchange_Text_View">Exchange :</string>
+    <string name="Company_Text_View">Company :</string>
+    <string name="updateButton">Get Latest Price</string>
+</resources>
