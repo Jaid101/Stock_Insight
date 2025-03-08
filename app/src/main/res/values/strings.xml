@@ -5,4 +5,8 @@
     <string name="Exchange_Text_View">Exchange :</string>
     <string name="Company_Text_View">Company :</string>
     <string name="updateButton">Get Latest Price</string>
+    <string name="default_web_client_id">471766199291-10eqtjdcfj7nb38nasnrfrlbbq2nhrm6.apps.googleusercontent.com</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
 </resources>

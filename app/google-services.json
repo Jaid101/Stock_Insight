@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471766199291",
+    "project_id": "stockinsight-57c4e",
+    "storage_bucket": "stockinsight-57c4e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471766199291:android:f50db2738d5d025b1cf95e",
+        "android_client_info": {
+          "package_name": "com.example.stockinsight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFsIOFq2JeYv9yTxThPrvfmERcnC9-heg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
