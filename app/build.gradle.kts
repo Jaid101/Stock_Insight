@@ -65,4 +65,8 @@ dependencies {
     // Logging
     implementation("org.slf4j:slf4j-simple:1.7.30")
     implementation ("androidx.cardview:cardview:1.0.0")
+
+    implementation ("org.jsoup:jsoup:1.13.1")
+    implementation ("androidx.preference:preference:1.2.1")
+
 }

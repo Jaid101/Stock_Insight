@@ -1,6 +1,7 @@
 package com.example.stockinsight;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,6 +37,13 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
 
         // Load image using Glide
         Glide.with(context).load(news.getImageUrl()).placeholder(R.drawable.placeholder_image).into(holder.newsImage);
+
+        // Set click listener to open full news article
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, NewsDetailActivity.class);
+            intent.putExtra("news_url", news.getNewsUrl());
+            context.startActivity(intent);
+        });
     }
 
     @Override

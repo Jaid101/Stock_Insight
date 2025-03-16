@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Material Toolbar with Correct ID -->
+
+    <!-- Developer Photo -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/aboutDevToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="About Developer"
+        android:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <ImageView
+        android:id="@+id/devImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dev_photo"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        android:padding="4dp"
+        android:clipToOutline="true"/>
+
+    <!-- Developer Name -->
+    <TextView
+        android:id="@+id/devName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jaid Rafik Tamboli"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Developer Address -->
+    <TextView
+        android:id="@+id/devAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vita, Maharashtra"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Developer Education -->
+    <TextView
+        android:id="@+id/devEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B.Tech IT Third Year, GCEK"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
